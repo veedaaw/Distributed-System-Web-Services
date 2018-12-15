@@ -1,0 +1,12 @@
+Nov 05, 2018 11:46:02 AM ImplCOMP addUserToEnrolledUser
+INFO: Student COMPS1234 added to COMP / Database!
+Nov 05, 2018 11:46:02 AM ImplCOMP addUserToEnrolledUser
+INFO: Student COMPS4567 added to COMP / Database!
+Nov 05, 2018 11:46:02 AM ImplCOMP addCourse
+INFO: course COMP1111 added to fall
+Nov 05, 2018 11:46:02 AM ImplCOMP addCourse
+INFO: course COMP2222 added to fall
+Nov 05, 2018 11:46:02 AM ImplCOMP getClassSchedule
+INFO: Class Schedule for this student is:
+Nov 05, 2018 11:46:02 AM ImplCOMP getClassSchedule
+INFO: COMP1111

@@ -1,0 +1,24 @@
+module DCSRApp
+{
+
+    typedef sequence <string> array;
+
+  interface DCSRInterface
+  {
+
+      string addCourse (in string courseID, in string semester, in long capacity, in string desc);
+      string removeCourse (in string courseID, in string semester);
+      array CourseAvailability (in string semester);
+
+      string enrolCourse (in string studentID, in string courseID, in string semester);
+      array getClassSchedule (in string studentID);
+      string dropCourse (in string studentID, in string courseID);
+      string addUserToEnrolledUser(in string name, in string id );
+
+      boolean hasCapacity(in string courseID);
+
+
+      oneway void shutdown();
+
+    };
+};
